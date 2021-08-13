@@ -7,7 +7,7 @@ Some operations on different data structures that can always come in handy.
 
 A stack is a linear data structure. here's a quick sketch :  
 
-[sketch of a stack](stack/stack_representation.png)
+![sketch of a stack](stack/stack_representation.png)
 
 The three main operations that are performed in a Stack are:
 
