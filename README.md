@@ -1,5 +1,5 @@
 # **Data Structures in C : main structures and operations** 
-Some basic operations on different data structures that can always come in handy. The tree and graph structure contain some more complex operations such as tree rotations or the Dijkstra algorithm. All structures use pointers, and some structures have a couple different implementation (the list of which is non-exhaustive).
+Some operations on different data structures that can always come in handy.
 
 ### **Some definitions**: 
 
