@@ -1,9 +1,9 @@
 # **Data Structures in C : main structures and operations** 
 Some operations on different data structures that can always come in handy.
 
-### **Some definitions**: 
+## **Some definitions**: 
 
-#### **stack** : 
+## **stack** : 
 
 A stack is a linear data structure. here's a quick sketch :  
 
@@ -16,7 +16,8 @@ The three main operations that are performed on a Stack are:
 * Peek or Top: Returns top element of stack.
 * usual stuff (length, checking if empty)
 
-#### **queue** : 
+
+## **queue** : 
 A queue is a collection of elements (as is a stack and every other data structure). What makes it different is that elements can be added at the end and taken out at the front only (FIFO --> First in First out). It's just like a line at the supermarket. Here's a sketch : 
 
 ![sketch of a queue](queue/queue.png)
