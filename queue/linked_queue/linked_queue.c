@@ -1,3 +1,10 @@
+/**
+ * \file linked_queue.c
+ * \brief definition of linked queue usual functions
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
 #include "linked_queue.h"
 
 Queue newQueue(){
@@ -41,7 +48,7 @@ int isempty(Queue q){
 }
 
 unsigned int length(Queue q){
-	return vide(q) ? 0 : lengthIntermediate(q.head, q.tail);
+	return isempty(q) ? 0 : lengthIntermediate(q.head, q.tail);
 }
 
 unsigned int lengthIntermediate(Strqueue* q1, Strqueue *q2){

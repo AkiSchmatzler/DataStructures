@@ -1,3 +1,12 @@
+/**
+ * \file linked_queue.h
+ * \brief header for linked queue
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
+
+
 #ifndef LINKED_QUEUE
 #define LINKED_QUEUE
 

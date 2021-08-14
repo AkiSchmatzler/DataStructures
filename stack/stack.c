@@ -1,3 +1,10 @@
+/**
+ * \file stack.c
+ * \brief definition of usual functions on a stack
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
 #include "stack.h"
 
 Stack newstack() {

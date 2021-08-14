@@ -1,3 +1,10 @@
+/**
+ * \file stack.h
+ * \brief header for usual functions on a stack
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
 #ifndef STACK
 #define STACK
 

@@ -1,3 +1,10 @@
+/**
+ * \file circular_queue.h
+ * \brief header for circular queue structure
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
 #ifndef CIRCULAR_QUEUE
 #define CIRCULAR_QUEUE
 
@@ -34,8 +41,8 @@ dataType head(Queue q);
 
 int isempty(Queue q);
 
-dataType length(Queue q);
+unsigned int length(Queue q);
 
-dataType lengthIntermediate(strQueue* q1, strQueue *q2);
+unsigned int lengthIntermediate(strQueue* q1, strQueue *q2);
 
 #endif

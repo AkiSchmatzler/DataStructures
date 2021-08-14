@@ -1,10 +1,17 @@
+/**
+ * \file circular_queue.c
+ * \brief definition of circular queue usual functions
+ * \date 14/08/2021
+ * \author Aki Schmatzler
+ */
+
 #include "circular_queue.h"
 
 Queue newQueue(){
 	return NULL;
 }
 
-Queue addHead(Queue f, dataType data){
+Queue addHead(Queue q, dataType data){
 	Queue q1 = (Queue) malloc(sizeof(strQueue));
 	if (q1 == NULL) abort(); //malloc error
 	q1->data = data;
@@ -25,7 +32,7 @@ Queue deleteHead(Queue q){
 	Queue res;
 	Queue q2;
 
-	if(q == q->next) { //i there's only one element
+	if(q == q->next) { //if there's only one element
 		free(q);
 		res=NULL;
 	}
@@ -43,13 +50,13 @@ dataType head(Queue q){
 }
 
 int isempty(Queue q){
-	return q==NULL;
+	return q == NULL;
 }
 
-Nat length(Queue q){
-	return isempty(q) ? 0 : lengthIntermediate(q->s,q);
+unsigned int length(Queue q){
+	return isempty(q) ? 0 : lengthIntermediate(q->next,q);
 }
 
-Nat lengthIntermediate(strQueue* q1, strQueue *q2){
-	return q1 == q2 ? 1 : 1 + lengthIntermediate(q1->s,q2);
+unsigned int lengthIntermediate(strQueue* q1, strQueue *q2){
+	return q1 == q2 ? 1 : 1 + lengthIntermediate(q1->next,q2);
 }
