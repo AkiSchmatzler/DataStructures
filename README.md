@@ -1,5 +1,6 @@
 # **Data Structures in C : main structures and operations** 
-Some operations on different data structures that can always come in handy.
+Some operations on different data structures that can always come in handy.  
+Some structures have multiple implementation (queue, list). For each implementation you'll find a sketch that shows how the structure is represented in the corresponding directory.
 
 ## **Some definitions**: 
 
@@ -28,4 +29,9 @@ The main operations that are performed on a queue are:
 * dequeue : taking an element out of the front of the queue
 * check beginning or end of the queue
 * usual stuff (length, checking if empty)
+
+## **list** :
+
+A list is a collection of elements that don't necessarily have an order. In opposite to the stack or the queue, you can access each element of a list, remove them, replace them. You are not just limited to the head or the tail of the list. This makes it very interesting, but that means that there are also more operations.
+
 
